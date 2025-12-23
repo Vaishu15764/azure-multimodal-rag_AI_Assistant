@@ -24,14 +24,10 @@ A **FastAPI backend** powers an **enterprise-style web UI** that supports:
 ## 🖥️ UI Screenshots
 
 ### 🔹 Main Chat Interface
-](image.png)
+<img width="1626" height="886" alt="image" src="https://github.com/user-attachments/assets/42f4e8bd-b663-48e6-aaa3-8116bff0f85b" />
 
 ### 🔹 Multimodal Answer with Sources
-![Sources View](screenshots/sources_view.png)
-
-### 🔹 Voice Input & Output
-![Voice Features](screenshots/voice_features.png)
-
+<img width="743" height="833" alt="image" src="https://github.com/user-attachments/assets/64121de5-7f60-4e78-bef6-377aa84dcf1e" />
 
 ## 🎯 Problem Statement
 Traditional document Q&A systems:
@@ -240,25 +236,29 @@ PINECONE_INDEX_NAME=multimodal-rag-index
 
 GROQ_API_KEY=YOUR_GROQ_KEY
 Gemini_Api=YOUR_GEMINI_KEY
-
+```  
+---
 ## ▶️ How to Run the Project
 
 ### 1️⃣ Install Dependencies
 ```bash
 pip install -r requirements.txt
+```  
 
 ### 2️⃣ Run Indexing Pipeline (One Time)
 ```bash
 python main.py
+```
 
 ### 3️⃣ Start FastAPI Server
 ```bash
 python fast_api.py
+```
 
 ### 🌐 Open in Browser
 ```bash
 http://localhost:8000
-
+```  
 
 ## 🧪 Example Use Case
 
@@ -284,3 +284,18 @@ http://localhost:8000
 
 ## 📌 Conclusion
 This project demonstrates a **practical and scalable Multimodal RAG-based document intelligence system** with an **enterprise-grade UI**, capable of answering questions over complex PDFs containing both textual and visual information. By combining efficient retrieval, grounded generation, multimodal understanding, and a rich user interface, the system closely mirrors **real-world enterprise AI document solutions**.
+
+
+---
+
+## 👤 Author
+
+**Vaishnavi Sainath Pachange**  
+🎓 B.Tech (CSE) | Data Science & AI Enthusiast  
+💡 Interested in AI, Machine Learning, Generative AI & Intelligent Systems  
+
+
+---
+
+
+
