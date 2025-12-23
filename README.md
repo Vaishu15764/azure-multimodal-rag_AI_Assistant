@@ -73,7 +73,7 @@ This project solves these problems by building a **scalable, multimodal, memory-
 ---
 
 ## 🏗️ High-Level Architecture
-
+```text
 Azure Blob Storage (PDF)
 ↓
 Multimodal Extraction
@@ -93,7 +93,7 @@ FastAPI Backend
 ↓
 Enterprise Web UI (HTML + JS)
 
-
+```
 ---
 
 ## 🧩 Module-wise Explanation
@@ -295,6 +295,7 @@ This project demonstrates a **practical and scalable Multimodal RAG-based docume
 
 
 ---
+
 
 
 
