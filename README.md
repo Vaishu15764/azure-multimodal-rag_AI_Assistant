@@ -1,4 +1,4 @@
-# 📄 Multimodal RAG-Based AI Document Assistant  
+# 📄 Azure MultiModel RAG AI Assistant
 **Azure Blob Storage | Pinecone | Groq LLaMA | Gemini | FastAPI | Advanced UI**
 
 ---
@@ -296,6 +296,7 @@ This project demonstrates a **practical and scalable Multimodal RAG-based docume
 
 
 ---
+
 
 
 
