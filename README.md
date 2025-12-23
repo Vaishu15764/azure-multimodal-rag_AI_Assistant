@@ -175,7 +175,7 @@ Extracted outputs are stored in:
 ---
 
 ## 📂 Project Folder Structure
-
+```text
 Multimodal_RAG_Project/
 │
 ├── __pycache__/
@@ -208,8 +208,7 @@ Multimodal_RAG_Project/
 ├── index.html                # Enterprise-style chat UI
 │
 └── README.md                 # Project documentation
-
-
+```
 ---
 
 ## ⚙️ Tech Stack
@@ -296,6 +295,7 @@ This project demonstrates a **practical and scalable Multimodal RAG-based docume
 
 
 ---
+
 
 
 
