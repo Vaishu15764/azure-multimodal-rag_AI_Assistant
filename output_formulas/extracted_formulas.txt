@@ -1,0 +1,9 @@
+Page 2: of continuous representations z = (z1, ..., zn). Given z, the decoder then generates an output
+Page 4: Attention(Q, K, V ) = softmax(QKT
+Page 5: MultiHead(Q, K, V ) = Concat(head1, ..., headh)W O
+Page 5: where headi = Attention(QW Q
+Page 5: dk = dv = dmodel/h = 64. Due to the reduced dimension of each head, the total computational cost
+Page 5: FFN(x) = max(0, xW1 + b1)W2 + b2
+Page 6: PE(pos,2i) = sin(pos/100002i/dmodel)
+Page 6: PE(pos,2i+1) = cos(pos/100002i/dmodel)
+Page 7: considerably, to O(k · n · d + n · d2). Even with k = n, however, the complexity of a separable

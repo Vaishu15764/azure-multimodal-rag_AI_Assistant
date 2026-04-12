@@ -1,0 +1,17 @@
+"MultiHead(Q, K, V ) = Concat(head1, ..., headh)W O","",""
+", KW K
+where headi = Attention(QW Q
+i",", V W V
+)
+i",""
+"Where the projections are parameter matrices W Q
+∈ Rdmodel×dk , W K","∈ Rdmodel×dk , W V","∈ Rdmodel×dv"
+"i
+i","i",""
+"and W O ∈ Rhdv×dmodel.","",""
+"In this work we employ h = 8 parallel attention layers, or heads.","For each of","these we use"
+"","dk = dv = dmodel/h = 64. Due to the reduced dimension of each head, the total computational cost",""
+"is similar to that of single-head attention with full dimensionality.","",""
+"3.2.3
+Applications of Attention in our Model","",""
+"The Transformer uses multi-head attention in three different ways:","",""
