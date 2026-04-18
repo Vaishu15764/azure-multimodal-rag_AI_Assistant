@@ -87,11 +87,9 @@ async def chat_endpoint(request: ChatRequest):
 # Run Server
 if __name__ == "__main__":
     print("🚀 Server Running...")
-    print("👉 Open UI at: http://localhost:8000")
 
     uvicorn.run(
         "src.app.app:app",
         host="0.0.0.0",
-        port=8000,
-        reload=True
+        port=int(os.environ.get("PORT", 8000))
     )
