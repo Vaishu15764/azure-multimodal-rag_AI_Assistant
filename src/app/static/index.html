@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enterprise RAG Assistant</title>
+
+    
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+
+<div class="sidebar">
+    <h2>History</h2>
+    <button onclick="startNewChat()">➕ New Chat</button>
+    <button onclick="clearHistory()">🗑 Clear History</button>
+    <ul id="historyList"></ul>
+</div>
+
+<div class="main-content">
+    <header>
+        <div class="logo"><span>🧠</span> Multi-RAG Assistant</div>
+        <div class="status-badge">● System Online</div>
+    </header>
+
+    <div id="chat-container">
+        <div class="message bot">
+            <div class="avatar">🤖</div>
+            <div class="bubble">
+                Hello! I can answer questions about your PDF document using
+                <b>Text, Tables, Formulas, and Images</b>.
+            </div>
+        </div>
+    </div>
+
+    <div class="input-area">
+        <div class="input-wrapper">
+
+            <div style="position:relative; width:100%;">
+                <input type="text"
+                       id="user-input"
+                       placeholder="Ask a question about your document..."
+                       autocomplete="off"
+                       style="padding-right:45px;">
+
+                <button id="mic-btn"
+                        style="
+                            position:absolute;
+                            right:10px;
+                            top:50%;
+                            transform:translateY(-50%);
+                            background:none;
+                            border:none;
+                            font-size:22px;
+                            cursor:pointer;
+                        ">
+                    🎤
+                </button>
+            </div>
+
+            <button id="send-btn">Send</button>
+
+        </div>
+    </div>
+</div>
+
+
+<script src="/static/js/app.js"></script>
+
+</body>
+</html>
