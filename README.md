@@ -314,5 +314,7 @@ the system replicates a **real-world enterprise-grade AI document assistant arch
 
 ## 👩‍💻 Author
 
-**Vaishnavi Sainath Pachange**
-Machine Learning & Data Science Enthusiast
+## 👩‍💻 Author
+
+**Vaishnavi Sainath Pachange**  
+AI Engineer | Machine Learning | Data Science Enthusiast
