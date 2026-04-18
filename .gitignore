@@ -1,7 +1,0 @@
-rag_env/
-__pycache__/
-.env
-output_images/
-output_tables/
-output_formulas/
-*.pyc
