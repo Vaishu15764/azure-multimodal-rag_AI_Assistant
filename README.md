@@ -229,7 +229,10 @@ Multimodal_RAG_Project/
 
 ---
 
-## 🔑 Environment Variables (`.env`)
+## 🔑 Environment Variables (.env)
+
+Create a `.env` file in the project root and add:
+
 ```env
 connection_url=AZURE_CONNECTION_STRING
 container_name=AZURE_CONTAINER_NAME
@@ -240,47 +243,76 @@ PINECONE_INDEX_NAME=multimodal-rag-index
 
 GROQ_API_KEY=YOUR_GROQ_KEY
 Gemini_Api=YOUR_GEMINI_KEY
-
+```
 ## ▶️ How to Run the Project
 
 ### 1️⃣ Install Dependencies
+
 ```bash
 pip install -r requirements.txt
+```
 
 ### 2️⃣ Run Indexing Pipeline (One Time)
+
 ```bash
 python main.py
+```
 
 ### 3️⃣ Start FastAPI Server
+
 ```bash
-python fast_api.py
+python src/app/app.py
+```
 
 ### 🌐 Open in Browser
-```bash
-http://localhost:8000
 
+```bash
+http://localhost:8000/
+```
+
+---
 
 ## 🧪 Example Use Case
 
-**User:**  
+**User:**
 “Explain the attention formula shown in the diagram.”
 
-**System:**  
-- Retrieves related text, formulas, and image captions  
-- Generates a context-grounded answer  
-- Allows voice playback of the response  
-- Maintains memory for follow-up questions  
+**System:**
+
+* Retrieves relevant text, formulas, and image captions from the document
+* Generates a context-grounded answer using LLM
+* Supports voice playback of generated responses
+* Maintains conversational memory for follow-up questions
 
 ---
 
 ## 🚀 Future Enhancements
-- PDF upload via UI  
-- Highlight text sources in documents  
-- Image rendering inside chat  
-- Authentication and role-based access  
-- Cloud deployment (Azure / AWS)  
+
+* PDF upload directly via UI
+* Highlight retrieved document sources in responses
+* Image rendering inside chat responses
+* Authentication and role-based access control
+* Cloud-native deployment (Azure / AWS)
 
 ---
 
 ## 📌 Conclusion
-This project demonstrates a **practical and scalable Multimodal RAG-based document intelligence system** with an **enterprise-grade UI**, capable of answering questions over complex PDFs containing both textual and visual information. By combining efficient retrieval, grounded generation, multimodal understanding, and a rich user interface, the system closely mirrors **real-world enterprise AI document solutions**.
+
+This project demonstrates a **practical and scalable Multimodal RAG-based document intelligence system** capable of answering questions from complex PDFs containing **text, tables, formulas, and images**.
+
+By combining:
+
+* Azure Blob Storage for document management
+* Pinecone for vector search
+* Gemini & Groq LLMs for reasoning
+* Sentence Transformers for embeddings
+* FastAPI backend with interactive UI
+
+the system replicates a **real-world enterprise-grade AI document assistant architecture** used in modern intelligent knowledge retrieval platforms.
+
+---
+
+## 👩‍💻 Author
+
+**Vaishnavi Sainath Pachange**
+Machine Learning & Data Science Enthusiast
